@@ -14,7 +14,7 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: dbyll
+      title: Title in the works
 
 description: Stylish Jekyll Theme
 author:
