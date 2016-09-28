@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ruminations
-categories: [the author(ess)]
+categories: [the authoress]
 tags: [ramblings, voting, procrastination]
 ---
 
