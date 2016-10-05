@@ -1,14 +1,14 @@
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:500&subset=latin,latin-ext);
 
 body{
-	color: Black;
+	color: Red;
 }
 
 .sidebar {
 	position: fixed;
 	top: 0px;
 	padding-top: 10%;
-	background-color: SlateBlue;
+	background-color: Black;
 	color: #fff;
 }
 
@@ -82,7 +82,7 @@ article .share .gplus:hover {
 }
 
 .page-header {
-	color: SlateBlue;
+	color: Black;
 	text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
 }
 
