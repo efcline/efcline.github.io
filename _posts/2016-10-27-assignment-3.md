@@ -14,17 +14,19 @@ In this post we will discuss assignment 3, trials and tribulations, and the like
 
 ...is the basic takeaway I have from this assignment. I wish I were more code-savvy and could have gotten my `if`/`then` to work, but I figure sometimes it's better to err on the side of caution. Here are the files I created with my script:
 
- * [gallica.md](https://github.com/efcline/assignment-3-efcline/blob/5debcf7c302491b28bb0ba23982f5d45658a32cb/gallica.md)
+ * [gallica.md (source)](https://github.com/efcline/assignment-3-efcline/blob/5debcf7c302491b28bb0ba23982f5d45658a32cb/gallica.md)
  * [gallica.md.html](https://github.com/efcline/assignment-3-efcline/commit/ad7f9dbdb116696c02ebc5f47dffc1e7f84e72ca)
  * [gallica.md.docx](https://github.com/efcline/assignment-3-efcline/blob/6d1a2e00763c3a4fcf2589aa653e8d1779682057/gallica.md.odt)
  * [gallica.md.odt](https://github.com/efcline/assignment-3-efcline/blob/5debcf7c302491b28bb0ba23982f5d45658a32cb/gallica.md.docx)
  * [gallica.md.pdf](https://github.com/efcline/assignment-3-efcline/blob/b2a2d5c22c106a70d86fcd89395c8e4c67b98062/gallica.md.pdf)
+
+And here is the script I used to do so (plus a link to my workspace):
  * [efcline-convert-docs.sh](https://github.com/efcline/assignment-3-efcline/blob/bf1406d3546526eb6e4bdcb83f5994ce4ec2defb/efcline-convert-docs.sh)
  * [Cloud9 Editor for efcline](https://ide.c9.io/efcline/assignment3)
 
 But wait! How did we get here? What are these files? What does it all mean?
 
-Pandoc bills itself as the ultimate document converter. Instead of the dropdown bar when you go to save a text document you've been working on, 
+Pandoc is the ultimate document converter. Instead of the dropdown bar when you go to save a text document you've been working on, 
 pandoc can take one file and do many things with it. Special features are added on using flags like `-S` or `--smart` (for fancy, curly quotes instead of boring straight ones).
 Others are more simplistic, like the `-o` which designates output, or the `-f` and `-t` which work like arrows for "from" and "to."
 
@@ -54,7 +56,3 @@ In essence, mistakes that really aren't that hard to avoid, and one would honest
 
 Making sure images displayed corectly instead of making my Cloud9 workspace spit out unhappy messages about files not found turned out to have an easy fix: put the image in the working tree with all the other scripts and files we're working with!
 And how did I come by this valuable piece of information? By talking to my peers, who turned out to be having similar issues. Teamwork ftw!
-
-Links to all of your source and output files, and your script on Github.
-Share your Cloud9 workspace with me and place a link to your Editor in the post. I should be able to run your script so you need to give me read-write permissions.
-Reflections on any challenges you encountered, 'aha' moments you had, etc.
