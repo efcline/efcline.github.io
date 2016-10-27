@@ -14,14 +14,13 @@ In this post we will discuss assignment 3, trials and tribulations, and the like
 
 ...is the basic takeaway I have from this assignment. I wish I were more code-savvy and could have gotten my `if`/`then` to work, but I figure sometimes it's better to err on the side of caution. Here are the files I created with my script:
 
- * gallica.md
- * gallica.md.html
- * gallica.md.docx
- * gallica.md.odt
- * gallica.md.pdf
- * (copy link to item from github)
- * (make sure to invite eah13)
- * efcline Editor [Cloud9 Editor](https://ide.c9.io/efcline/assignment3)
+ * [gallica.md](https://github.com/efcline/assignment-3-efcline/blob/5debcf7c302491b28bb0ba23982f5d45658a32cb/gallica.md)
+ * [gallica.md.html](https://github.com/efcline/assignment-3-efcline/commit/ad7f9dbdb116696c02ebc5f47dffc1e7f84e72ca)
+ * [gallica.md.docx](https://github.com/efcline/assignment-3-efcline/blob/6d1a2e00763c3a4fcf2589aa653e8d1779682057/gallica.md.odt)
+ * [gallica.md.odt](https://github.com/efcline/assignment-3-efcline/blob/5debcf7c302491b28bb0ba23982f5d45658a32cb/gallica.md.docx)
+ * [gallica.md.pdf](https://github.com/efcline/assignment-3-efcline/blob/b2a2d5c22c106a70d86fcd89395c8e4c67b98062/gallica.md.pdf)
+ * [efcline-convert-docs.sh](https://github.com/efcline/assignment-3-efcline/blob/bf1406d3546526eb6e4bdcb83f5994ce4ec2defb/efcline-convert-docs.sh)
+ * [Cloud9 Editor for efcline](https://ide.c9.io/efcline/assignment3)
 
 But wait! How did we get here? What are these files? What does it all mean?
 
@@ -40,7 +39,7 @@ Scripts are fun because you get to write a little bit of code for the computer b
 ended up being pretty basic, but at least it works! I used (probably overused) the commands `echo` `read` and `read -p` which echoes out a line of text but also waits for prompting from the user.
 With a little work, I soon had four similar but important commands. Here is the html conversion:
 
-* `pandoc -o $FILE.html $FILE` Here FILE is a variable, whatever markdown file the user decides (at the beginning of the script) they would like to convert.
+* `pandoc -o $FILE.html $FILE` Here `FILE` is a variable, whatever markdown file the user decides (at the beginning of the script) they would like to convert.
 
 After that it was quick work! There are a few breaks wherein the person running the script is prompted for input, mosting in the form of "What's your name?" or "Should we continue?"
 
