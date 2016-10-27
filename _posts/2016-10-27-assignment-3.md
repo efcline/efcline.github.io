@@ -21,6 +21,7 @@ In this post we will discuss assignment 3, trials and tribulations, and the like
  * [gallica.md.pdf](https://github.com/efcline/assignment-3-efcline/blob/b2a2d5c22c106a70d86fcd89395c8e4c67b98062/gallica.md.pdf)
 
 And here is the script I used to do so (plus a link to my workspace):
+
  * [efcline-convert-docs.sh](https://github.com/efcline/assignment-3-efcline/blob/bf1406d3546526eb6e4bdcb83f5994ce4ec2defb/efcline-convert-docs.sh)
  * [Cloud9 Editor for efcline](https://ide.c9.io/efcline/assignment3)
 
