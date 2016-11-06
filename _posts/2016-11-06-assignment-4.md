@@ -19,11 +19,12 @@ them and use the `$` or just backticks (``) around the defined name, you may wri
 
 With a little help from the ever-useful Stack Exchange, I figured out how to make a unique identifier. 
 Defining the `ID` variable in the beginning of the script and then calling it out to append to the .csv file at the end worked very well. 
-The same was true of the datestamp, and then when all the questions are answered the script does one last thing...
+The same was true of the datestamp, and then when all the questions are answered thes script does one last thing...
 
-> #Put it all in a .csv file
+
 > answers=`echo "$varname,$varage,$varclass,$varanim,$varcol,$(date),$ID"`
 > echo "$answers" >> data.csv
+
 
 And you can see all the answers in our file! Here is a link to our [github repository](https://github.com/sarecht/octocat). 
 
