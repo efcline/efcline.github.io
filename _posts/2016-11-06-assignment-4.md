@@ -21,10 +21,7 @@ With a little help from the ever-useful Stack Exchange, I figured out how to mak
 Defining the `ID` variable in the beginning of the script and then calling it out to append to the .csv file at the end worked very well. 
 The same was true of the datestamp, and then when all the questions are answered thes script does one last thing...
 
-
-> answers=`echo "$varname,$varage,$varclass,$varanim,$varcol,$(date),$ID"`
-> echo "$answers" >> data.csv
-
+> `echo "$answers" >> data.csv`
 
 And you can see all the answers in our file! Here is a link to our [github repository](https://github.com/sarecht/octocat). 
 
