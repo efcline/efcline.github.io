@@ -14,24 +14,18 @@ make a script with specific questions, then take the answers and add them to an 
 We named our script `octocat` in honor of Github's icon and mascot. Writing out our questions and having the script store the responses was the easy
 part, then with a little manoevering and help from our professor the datestamp and unique identifiers were added as well. 
 
-Our questions in the script look like this:
+Sanjana made a really good point when we were writing our questions - I thought all variable names had to be all caps, but as long as you name 
+them and use the `$` or just backticks (``) around the defined name, you may write a variable however you like.
 
-> echo "How old are you?"
-> read varage
-> echo "You are $varage years old!"
-
-Sanjana made a really good point here - I thought all variable names had to be all caps, but as long as you name them and use the 
-`$` or just backticks (``) around the defined name, you may write a variable however you like.
-
-With a little help from the ever-useful Stack Exchange, I figured out how to make a unique identifier: `ID=`python -c 'import uuid; print str(uuid.uuid1())'``
+With a little help from the ever-useful Stack Exchange, I figured out how to make a unique identifier. 
 Defining the `ID` variable in the beginning of the script and then calling it out to append to the .csv file at the end worked very well. 
-The same was true of the datestamp, which looks like this: `time=`(date)`` And then when all the questions are answered the script does one last thing...
+The same was true of the datestamp, and then when all the questions are answered the script does one last thing...
 
-> `#Put it all in a .csv file`
+> ` #Put it all in a .csv file `
 
-> `answers=`echo "$varname,$varage,$varclass,$varanim,$varcol,$(date),$ID"``
+> ` answers=`echo "$varname,$varage,$varclass,$varanim,$varcol,$(date),$ID"` `
 
-> `echo "$answers" >> data.csv`
+> ` echo "$answers" >> data.csv `
 
 And you can see all the answers in our file! Here is a link to our [github repository](https://github.com/sarecht/octocat). 
 
