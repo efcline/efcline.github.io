@@ -17,7 +17,9 @@ part, then with a little manoevering and help from our professor the datestamp a
 Our questions in the script look like this:
 
 > `echo "How old are you?"`
+
 > `read varage`
+
 > `echo "You are $varage years old!"`
 
 Sanjana made a really good point here - I thought all variable names had to be all caps, but as long as you name them and use the 
