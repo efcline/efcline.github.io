@@ -8,7 +8,7 @@ shortview: true
 
 # Data Creation
 
-I'll never look at spreadsheets the same way again, that's for sure! In this assignment my group (Sarah, Sanjana, and myself) worked together to
+In this assignment my group (Sarah, Sanjana, and myself) worked together to
 make a script with specific questions, then take the answers and add them to an ever-growing .csv file.
 
 We named our script `octocat` in honor of Github's icon and mascot. Writing out our questions and having the script store the responses was the easy
@@ -19,7 +19,7 @@ them and use the `$` or just backticks (``) around the defined name, you may wri
 
 With a little help from the ever-useful Stack Exchange, I figured out how to make a unique identifier. 
 Defining the `ID` variable in the beginning of the script and then calling it out to append to the .csv file at the end worked very well. 
-The same was true of the datestamp, and then when all the questions are answered thes script does one last thing...
+The same was true of the datestamp, and then when all the questions are answered the script does one last thing...
 
 > `echo "$answers" >> data.csv`
 
