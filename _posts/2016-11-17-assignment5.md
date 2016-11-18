@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Assignment 5 Reflection
+title: Databases are Tough
 categories: [general, class, assignments]
 tags: [general, class, scripts, data, databases]
 shortview: true
@@ -49,7 +49,8 @@ panic. Let's see...first we tried to just import all data in the .csv file to oc
 But we quickly realized that this created duplicate lines of data within octocat - not very useful or very
 professional. Then removing those duplicate lines became a chore. I settled on deleting things line by (duplicate) line, but
 Sarah found a great `TRUNCATE` command that cleared the whole thing. I'm always a little fearful when erasing
-things - what if it messes up and we can't fix it? - but this one was perfect. 
+things - what if it messes up and we can't fix it? - but this one was perfect. Once cleared, we added in a unique key,
+which disallows identical sets of data in a table and proved the use of a unique but random string of characters as ID markers.
 
 At the same time, we were still wrestling with our script and getting it all to add properly to octocat. 
 I wanted to use the `INSERT` command, but that proved too difficult, so we switched to attempting the `IGNORE`
@@ -63,16 +64,24 @@ we had to delete everything at least 4 times? I didn't keep a tally, but it seem
 
 After lots of searching and asking our professor, we arrived at:
 
-> `mysql -D octocat -u $user -e "LOAD DATA INFILE '/home/ubuntu/workspace/octocat2/octocat/data.csv' IGNORE INTO TABLE octocat FIELDS TERMINATED BY ','(Name, Age, Class, Animal, Color, Date, ID);"`
+> `mysql -D octocat -u $user -e "LOAD DATA INFILE '/home/ubuntu/workspace/octocat2/octocat/data.csv'` 
+> `IGNORE INTO TABLE octocat FIELDS TERMINATED BY ','(Name, Age, Class, Animal, Color, Date, ID);"`
 
 And hey! It works!
 
 # Running our script
 
-If you like, you may run our script on your own machine! However, you will need to do the following:
+If you like, you may run our script on your own machine! However, you will need to create a new database. To do this, type:
 
-* create an empty database named octocat in your workspace
-* import our existing data with `mysql -u yourUsername -p octocat < octocat.sql
+> `mysql-ctl cli`
+> `CREATE DATABASE octocat;`
 
-And you should be able to see everything!
+Then you can exit mysql and return to bash. If you would like to see all the data 
+we collected over the course of our assignment, you will need to do the following:
+
+> `mysql -u yourUsername -p -e octocat < octocat.sql`
+
+This will import our data into your file and you should be able to see everything!
+
+
 
