@@ -71,9 +71,9 @@ And hey! It works!
 
 # Running our script
 
-If you like, you may run our script on your own machine! However, you will need to create a new database. To do this, type:
+If you like, you may run our script on your own machine! However, you will need to create a new database. To do this, enter
+MySQL (with `mysql-ctl cli`) and type:
 
-> `mysql-ctl cli`
 > `CREATE DATABASE octocat;`
 
 Then you can exit mysql and return to bash. If you would like to see all the data 
