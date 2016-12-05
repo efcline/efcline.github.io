@@ -33,7 +33,7 @@ Once the general structure of the presentation was done, we thought about adding
 as fragments. These are little animations that halt the progress of the presentation to load separate lines
 at the click of a mouse. Fragments may be written like this:
 
-> `<p class="fragment">
+> `<p class="fragment">`
 
 ...and are a lot of fun to play with! This animation, while great, didn't do so great things to the overall
 flow and structure of the presentation - in fact, for a while it would run each fragment, finish, then bounce
