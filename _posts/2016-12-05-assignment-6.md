@@ -60,7 +60,9 @@ and decided to stick with that. Since our pictures are so colorful, we didn't wa
 strange backgrounds.
 
 This presentation was the culmination of all our skills. Scripts, HTML, pandoc, github and Cloud9...the only skill we learned
-that we didn't use in this instance was databases (MySQL). It was fun to practice all the things we learned.
+that we didn't use in this instance was databases (MySQL). It was fun to practice all the things we learned. And I'm happy to report
+that I had exactly zero moments of panic when things didn't work out! Stack Exchange is really a great resource, and not just for
+computer-related issues!
 
 Also when we were finishing up the final product, a few of our fellow SILS students took a 
 look at what we had and were very impressed with our collective tech know-how! 
@@ -69,8 +71,20 @@ I feel very accomplished!
 
 <iframe src="//giphy.com/embed/nXxOjZrbnbRxS" width="480" height="648" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/win-nXxOjZrbnbRxS">via GIPHY</a></p>
 
+# Moving Forward?
 
+This class has been cool! I've learned a lot of great skills and although I don't feel like an expert in the realm of computer
+science or coding or fabulous fancy IS things, I can navigate a conversation and I can do a whole lot more than I used 
+to be able (or confident enough) to do.
 
+It sounds like showing off, but I've been using a few things we've been learning about websites to try and diagnose various
+tech problems that pop up while at work, much to the amazement of my colleagues. I wasn't able to fix anything, but now that 
+I'm more familiar with HTML I can identify problem areas or at least understand which things refer to which ares of 
+the website.
 
+In terms of SILS, I'm looking forward to taking more IS classes in the future! I'm not sure which type of library I'd like
+to work for in the future, but I feel like courses like INLS 523 (Databases) or Web Development could both be really beneficial 
+no matter the career setting I finally choose...and they also sound like fun, now that I have a better idea of 
+what I would be studying in those classes.
 
 
